@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box; 
+}
+
+body{
+    background-color:hsl(240, 2%, 79%,0.2);
+    font-family:"Overpass",sans-serif;
+}
+.no-scroll{
+    overflow: hidden;
+}
+
+html{
+    font-family:"Ubuntu",fantasy;
+    font-size: 62.5%;
+}
+
+.overlay{
+    display: none;
+}
+
+.about_heading{
+    text-align: center;
+    border: 10px solid yellow;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: mediumblue;
+    color:#fff;
+  
+}
+
+.about_text{
+    font-size: 36px;
+    font-weight: 700;
+   
+   }
+   .carousel-item{
+           /* height: 400px; */
+   }
+   .imgs_stye{
+       height: 900px;
+       width: 100%;
+       object-fit: cover !important;
+       background-position: center !important; 
+       background-size: cover !important;
+       /* background-image: url(../images/img4.png); */
+       /* background-repeat: no-repeat; */
+       
+   }
+   .imgs_style{
+    /* height: 400px;    */
+   }
+   .about_heading{
+       font-size: 18px;
+
+   }
+
+.developer-text{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.dev_img{
+    
+
+}
+.footer{
+    text-align: center;
+}
+button{
+    padding:10px 20px;
+    margin:10px;
+    font-size: 18px;
+    outline: none !important;
+    border: none;
+    border-radius: 30px;
+
+    background-color:red;
+}
+@media screen and (max-width:768px){
+    .about_text{
+        font-size: 18px;
+    }
+    .dev_img{
+    height: 400px;
+    text-align: center;
+    margin:0 auto;
+    }
+    .img-responsive{
+        text-align: center;
+    }
+    button{
+        font-size: 18px !important;
+        color :#fff
+    }
+    .love_text{
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+}
