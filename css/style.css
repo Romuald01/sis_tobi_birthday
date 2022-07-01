@@ -28,7 +28,6 @@ html{
     font-weight: 900;
     background-color: mediumblue;
     color:#fff;
-  
 }
 
 .about_text{
@@ -36,36 +35,28 @@ html{
     font-weight: 700;
    
    }
-   .carousel-item{
-           /* height: 400px; */
-   }
+ 
    .imgs_stye{
        height: 900px;
        width: 100%;
        object-fit: cover !important;
        background-position: center !important; 
        background-size: cover !important;
-       /* background-image: url(../images/img4.png); */
-       /* background-repeat: no-repeat; */
-       
+     
    }
-   .imgs_style{
-    /* height: 400px;    */
-   }
+
+ 
    .about_heading{
        font-size: 18px;
 
    }
 
 .developer-text{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
-.dev_img{
-    
 
-}
 .footer{
     text-align: center;
 }
@@ -76,7 +67,6 @@ button{
     outline: none !important;
     border: none;
     border-radius: 30px;
-
     background-color:red;
 }
 @media screen and (max-width:768px){
@@ -84,7 +74,7 @@ button{
         font-size: 18px;
     }
     .dev_img{
-    height: 400px;
+    height: 200px;
     text-align: center;
     margin:0 auto;
     }
